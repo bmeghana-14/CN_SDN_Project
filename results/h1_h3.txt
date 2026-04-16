@@ -1,1 +1,11 @@
+mininet> h1 ping -c 5 h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=4.61 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.479 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.211 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.187 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=0.452 ms
 
+--- 10.0.0.3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4089ms
+rtt min/avg/max/mdev = 0.187/1.188/4.613/1.716 ms
